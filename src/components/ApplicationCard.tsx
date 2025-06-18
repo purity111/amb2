@@ -55,6 +55,8 @@ const ApplicationCard: React.FC<ApplicationCardProps> = ({
       return date.toLocaleDateString('ja-JP');
     } catch (error) {
       return birthdate;
+      console.log(error);
+      
     }
   };
 
